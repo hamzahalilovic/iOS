@@ -1,0 +1,6 @@
+framework module Pods_MoP_Memories {
+  umbrella header "Pods-MoP-Memories-umbrella.h"
+
+  export *
+  module * { export * }
+}
