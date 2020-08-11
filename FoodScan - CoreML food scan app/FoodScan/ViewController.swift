@@ -70,7 +70,16 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             }
             
             //if successful
-            print(results)
+            //print(results)
+            
+            //edit which food result identifier should be equal to
+            if let firstResult = results.first {
+                if firstResult.identifier.contains("pizza") {
+                    self.navigationItem.title = "Pizza"
+                }else {
+                    self.navigationItem.title = "Not Pizza"
+                }
+            }
             
         }
         
