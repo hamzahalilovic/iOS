@@ -1,0 +1,6 @@
+framework module Pods_FlowerScan {
+  umbrella header "Pods-FlowerScan-umbrella.h"
+
+  export *
+  module * { export * }
+}
